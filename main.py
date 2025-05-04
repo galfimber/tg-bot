@@ -17,7 +17,6 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.exceptions import TelegramAPIError
-from aiogram.client.session.aiohttp import AiohttpSession
 
 # Загрузка переменных окружения
 load_dotenv()
@@ -84,10 +83,9 @@ main_keyboard = ReplyKeyboardMarkup(
     one_time_keyboard=False
 )
 
-session = AiohttpSession(proxy='http://proxy.server:3128') # в proxy указан прокси сервер pythonanywhere, он нужен для подключения
 # Инициализация бота и диспетчера с хранилищем состояний
 storage = MemoryStorage()
-bot = Bot(token=TELEGRAM_TOKEN, session=session)
+bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher(storage=storage)
 
 # Переменная для отслеживания последней активности
