@@ -1,0 +1,8 @@
+2025-05-04 15:37:34,862 - __main__ - INFO - API DeepInfra доступен
+2025-05-04 15:37:34,863 - __main__ - INFO - Запуск бота...
+2025-05-04 15:37:34,863 - aiogram.dispatcher - INFO - Start polling
+2025-05-04 15:37:35,130 - aiogram.dispatcher - INFO - Run polling for bot @real_ii_chat_bot id=8151093657 - 'ИИ чат-бот'
+2025-05-04 15:37:46,979 - __main__ - INFO - Пользователь 455849610 запросил справку
+2025-05-04 15:37:46,979 - aiogram.event - INFO - Update id=63869518 is handled. Duration 294 ms by bot id=8151093657
+2025-05-04 15:38:11,073 - __main__ - INFO - Успешно отправлен ответ пользователю 455849610
+2025-05-04 15:38:11,073 - aiogram.event - INFO - Update id=63869519 is handled. Duration 2417 ms by bot id=8151093657
